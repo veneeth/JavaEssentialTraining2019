@@ -14,10 +14,12 @@ public class Main {
 
         int intValue = 42;
         var fromInt = Integer.toString(intValue);
+        System.out.println(intValue);
         System.out.println(fromInt);
 
         boolean boolValue = true;
         var fromBool = Boolean.toString(boolValue);
+        System.out.println(boolValue);
         System.out.println(fromBool);
 
         long longValue = 10_000_000;
